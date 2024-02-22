@@ -1,0 +1,31 @@
+body {
+    margin-left: 8px;
+    border: 1px solid;
+}
+h1{
+	text-align: center;
+	color: darkblue;
+	border: 10px solid transparent;
+    border-image-source: url('https://th.bing.com/th/id/OIP.mx0krpTKeNk2iHs2mvtkYAHaDn?rs=1&pid=ImgDetMain');
+    border-image-slice: 10;
+    border-image-repeat: round;
+}
+a{
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+}
+a:hover{
+	font-size:17px;
+	color: orangered;		
+}
+li{
+	line-height: 1.5;	
+}
+.image{
+	background-image: url('https://professor-excel.com/wp-content/uploads/2016/01/Wallpaper_Excel_6_Mac-1.png');
+}
+a.animate-down {
+  transform: translateY(20px); /* Move the link down by 20 pixels */
+  transition: transform 0.3s ease;
+}
